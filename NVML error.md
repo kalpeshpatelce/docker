@@ -4,7 +4,7 @@
 "Failed to initialize NVML: Unknown Error"
 ## Stop the Docker Service
 ```
-sudo systemctl stop docker.servie
+sudo systemctl stop docker.service
 ```
 ## open the /etc/docker/daemon.json 
 ```
@@ -20,5 +20,5 @@ sudo systemctl daemon-reload
 ```
 ## Restart Docker Service
 ```
-sudo systemctl start docker.servie
+sudo systemctl start docker.service
 ```
